@@ -1,0 +1,62 @@
+#meme-card {
+	position: relative;
+	width: 1000px;
+	height: 1000px;
+}
+
+img.meme {
+	width: 1000px;
+	height: 1000px;
+}
+
+img.watermark {
+    z-index:0;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 950px;
+    margin-right:0px;
+    margin-left: 950px;
+    margin-bottom: 0px;
+    opacity: .3;
+
+}
+
+.meme-text {
+  	position:absolute;
+    width: 1000px;
+	margin: 0;
+	padding: 0;
+	font-size: 68px;
+    color: white;
+    padding: 0;
+    max-width: 1100px;
+    max-height: 400px;
+    font-family: Impact, Charcoal, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow:
+            4px 4px 0 #000,
+              /* Simulated effect for Firefox and Opera
+                 and nice enhancement for WebKit */
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px  2px 0 #000,
+            2px  2px 0 #000;
+    /* If you want your things to swipe nicely, you might want to disable
+     * text selection on those elements. */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.meme-header {
+	top: 28px;
+}
+
+.meme-footer {
+	bottom: 28px;
+}

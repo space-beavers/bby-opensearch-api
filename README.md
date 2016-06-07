@@ -1,10 +1,9 @@
-#bby-opensearch-api
-Searches the bestbuy.ca autocomplete api and returns results in OpenSearch format.
+#opensearch-api
+autocomplete api and returns results in OpenSearch format.
 
 
 ## Example GET request
 
-[https://powerful-sands-15869.herokuapp.com/opensearch?query=laptop](https://powerful-sands-15869.herokuapp.com/opensearch?query=laptop)
 
 
 ## OpenSearch Reference
